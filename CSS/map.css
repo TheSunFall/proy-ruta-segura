@@ -1,0 +1,10 @@
+/* Estilo para el mapa zonas riesgo */
+#zonasRiesgoMap {
+    height: 65vh; /* Altura del mapa */
+    width: 70%; /* Ancho del mapa */
+}
+/* Estilo para el mapa rutas seguras */
+#rutasSegurasMap {
+    height: 65vh; /* Altura del mapa */
+    width: 70%; /* Ancho del mapa */
+}
