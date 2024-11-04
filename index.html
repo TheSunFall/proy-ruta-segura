@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>INFO SEGURA</title>
+    <title>Zonas de riesgo</title>
     <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet"/>
-    <link href="CSS/main.css" rel="stylesheet">
-    <link href="CSS/normalize.css" rel="stylesheet">
-    <link href="CSS/map.css" rel="stylesheet">
+    <link href="../CSS/main.css" rel="stylesheet">
+    <link href="../CSS/normalize.css" rel="stylesheet">
+    <link href="../CSS/map.css" rel="stylesheet">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
 <h1 class="head1">INFO SEGURA</h1>
 <nav>
-    <a href="index.html">Inicio</a>
-    <a href="PAGES/zonas-de-riesgo.html">Zonas de riesgo</a>
-    <a href="PAGES/rutas-seguras.html">Rutas seguras</a>
+    <a href="../index.html">Inicio</a>
 </nav>
 <main>
-    <h1>IMPORTANCIA</h1>
-    <p>
-        Es crucial que los estudiantes de la Universidad Nacional Mayor de San Marcos (UNMSM) se informen sobre las
-        zonas de mayor riesgo de robos y asaltos en los alrededores, como la Avenida Universitaria y sus accesos. Este
-        conocimiento no solo les permitirá prevenir situaciones peligrosas y mantener una mayor conciencia situacional,
-        sino que también fomentará la seguridad colectiva al compartir información con sus compañeros. Además, al estar
-        atentos a las actividades sospechosas, podrán colaborar con las autoridades para mejorar la vigilancia en estas
-        áreas, contribuyendo así a un ambiente más seguro que favorezca su bienestar y rendimiento académico. La
-        inseguridad no solo afecta la seguridad física, sino también la salud mental de los estudiantes, por lo que
-        adoptar medidas preventivas es esencial para garantizar un entorno propicio para el estudio y el desarrollo
-        persona
-    </p>
+    <h1>ZONAS DE RIESGO</h1>
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae itaque unde fuga, mollitia saepe
+        eligendi eos ut reiciendis maxime, similique nesciunt eaque sapiente delectus atque vitae rerum optio
+        tempora dolor.
+    </div>
+    <div id="zonasRiesgoMap"></div>
+    <div>
+        <div>
+            Leyenda:
+        </div>
+        <ul>
+            <li>Verde: menor casos de robo</li>
+            <li>Amarillo: regular casos de robo</li>
+            <li>Naranja: usualmente roban</li>
+            <li>Rojo: roban bastante</li>
+        </ul>
+    </div>
+    <script src="../JS/zonasRiesgoMap.js"></script>
+    <script src="../JS/main.js"></script>
 </main>
 </body>
 </html>
