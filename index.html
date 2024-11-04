@@ -13,26 +13,28 @@
 <body>
 <h1 class="head1">INFO SEGURA</h1>
 <nav>
-    <a href="../index.html">Inicio</a>
+    <a href="index.html">Inicio</a>
 </nav>
 <main>
     <h1>ZONAS DE RIESGO</h1>
     <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae itaque unde fuga, mollitia saepe
-        eligendi eos ut reiciendis maxime, similique nesciunt eaque sapiente delectus atque vitae rerum optio
-        tempora dolor.
+        Puedes hacer clic en los puntos para obtener más información sobre la zona de riesgo.
     </div>
-    <div id="zonasRiesgoMap"></div>
-    <div>
-        <div>
-            Leyenda:
+    <div class="mapa">
+        <div id="zonasRiesgoMap"></div>
+        <div class="leyenda">
+            <h3>
+                Leyenda:
+            </h3>
+            <ul>
+                <li><span style="color: #80ff00; font-weight: bold">Verde:</span> menores casos de robo</li>
+                <li><span style="color: #ffc100; font-weight: bold">Amarillo:</span> regular casos de robo</li>
+                <li><span style="color: #ff8000; font-weight: bold">Nararnja:</span> usualmente roban</li>
+                <li><span style="color: #ff0000; font-weight: bold">Rojo:</span> roban bastante</li>
+            </ul>
+            <button onclick="centrar()">Centrar mapa</button>
         </div>
-        <ul>
-            <li>Verde: menor casos de robo</li>
-            <li>Amarillo: regular casos de robo</li>
-            <li>Naranja: usualmente roban</li>
-            <li>Rojo: roban bastante</li>
-        </ul>
+
     </div>
     <script src="../JS/zonasRiesgoMap.js"></script>
     <script src="../JS/main.js"></script>
